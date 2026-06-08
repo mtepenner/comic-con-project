@@ -39,23 +39,23 @@ The Comic-Con Terminal Management System is a full-stack, cyber-themed desktop a
    git clone https://github.com/mtepenner/comic_con_project.git
    cd comic-con-project
 
-```
+   ```
 
 2. **Configure Executable Path (Mac/Linux Users):**
 By default, the Python frontend looks for a Windows `.exe` file. If you are on Mac or Linux, open `frontend/config.py` and update the execution path:
-```python
-# Change from "backend/backend.exe" to:
-CPP_EXECUTABLE = "backend/backend" 
-
-```
+   ```python
+   # Change from "backend/backend.exe" to:
+   CPP_EXECUTABLE = "backend/backend" 
+   
+   ```
 
 
 3. **Build and Run:**
 Use the provided Makefile to compile the C++ backend and launch the Python GUI simultaneously:
-```bash
-make all
-
-```
+   ```bash
+   make all
+   
+   ```
 
 
 
