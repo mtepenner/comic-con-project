@@ -1,0 +1,15 @@
+comic_con_project/
+├── Makefile                <-- (Run this from your terminal)
+├── backend/
+│   ├── Actor.h
+│   ├── Artist.h
+│   ├── Celebrity.h
+│   ├── Cosplayer.h
+│   └── main.cpp            <-- (C++ Entry Point)
+└── frontend/
+    ├── admin_ui.py
+    ├── auth_ui.py
+    ├── config.py           <-- (Needs path update)
+    ├── guest_ui.py
+    ├── main.py             <-- (Python Entry Point)
+    └── managers.py
