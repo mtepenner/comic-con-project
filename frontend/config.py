@@ -1,9 +1,11 @@
-# config.py
+# frontend/config.py
 
 # ==========================================
 # Configurations & Theme Settings
 # ==========================================
-CPP_EXECUTABLE = "backend.exe"  # Change to "./backend" if on Mac/Linux
+# Update this path to look inside the backend directory!
+CPP_EXECUTABLE = "backend/backend.exe"  # Change to "backend/backend" if on Mac/Linux
+
 AUTH_FILE = "users.json"
 DATA_FILE = "comicon_data.txt"
 BANK_FILE = "bank_config.json"
